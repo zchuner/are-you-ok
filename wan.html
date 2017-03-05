@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="self-adaption" />
+<meta name="copyright" content="self-adaption" />
+<title>self-adaption</title>
+<style>
+*{ margin:0; padding:0;}
+.head{ height:80px; background:#ccc; text-align:center; color:#fff; font-size:48px;}
+.content{ position:relative; margin-top:10px;}
+.left{ width:150px; height:300px; background:#ccc; text-align:center; color:#fff; font-size:48px; position:absolute; left:0; top:0; }
+.right{ width:150px; height:300px; background:#ccc; text-align:center; color:#fff; font-size:48px; position:absolute; right:0; top:0; }
+.center{ height:300px; background:#ccc; text-align:center; color:#fff; font-size:48px; margin:0 160px; }
+
+.foot{ height:80px; background:#ccc; text-align:center; color:#fff; font-size:48px; margin-top:10px;}
+@media screen and (max-width:900px){
+	.right{ display:none;}
+	.center{ margin-right:0;}
+	}
+@media screen and (max-width:500px){
+	.left{ height:80px; position:static; width:100%;}
+	.center{ height:80px; margin-left:0; margin-top:10px;}
+	.right{ height:80px; display:block; position:static; width:100%; margin-top:10px;}
+	}
+</style>
+</head>
+
+<body style="height:45646464px;">
+<div class="head">head</div>
+<div class="content">
+	<div class="left">left</div>
+	<div class="center">center</div>
+	<div class="right">right</div>
+</div>
+<div class="foot">foot</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
